@@ -61,26 +61,33 @@
   
     
     <entry>
-      <title><![CDATA[categories]]></title>
-      <url>http://lixinchengdu.github.io/categories/index.html</url>
+      <title><![CDATA[about]]></title>
+      <url>http://lixinchengdu.github.io/about/index-1.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[about]]></title>
       <url>http://lixinchengdu.github.io/about/index.html</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<p>My name is Xin Li.</p>
+]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[new page]]></title>
-      <url>http://lixinchengdu.github.io/new-page/index.html</url>
+      <title><![CDATA[categories]]></title>
+      <url>http://lixinchengdu.github.io/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[tags]]></title>
       <url>http://lixinchengdu.github.io/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[new page]]></title>
+      <url>http://lixinchengdu.github.io/new-page/index.html</url>
       <content type="html"></content>
     </entry>
     
