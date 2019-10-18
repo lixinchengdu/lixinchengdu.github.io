@@ -1,0 +1,237 @@
+me{ 
+	color: black;
+	font-family: arial, sans-serif;
+	font-size: 14pt;
+	line-height: 14pt;
+	text-align: right;
+	margin-right: 15px;
+}
+
+H2.title {
+	color: black;
+	font-family: arial, sans-serif;
+	line-height: 10pt;
+	font-size: 10pt;
+	text-align: right;
+	margin-right: 15px;
+}
+
+H3 {
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	color: #FFF;
+	background-color: #0CC;
+	font-family: arial, sans-serif;
+	font-size: 12pt;
+	line-height: 18pt;
+	font-weight: bold;
+	margin-top: 30px;
+	text-indent: 10px;
+	text-align: left;
+}
+
+H3.header {
+	font-size: 10pt;
+	color: #0CC;
+	background-color: #0CC;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+H3.header-gold {
+	border-width: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 2pt;
+	font-size: 17pt;
+}
+
+P {
+	color: #000;
+	font-family: times, serif;
+	font-size: 12pt;
+	line-height: normal;
+	text-align: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+P.address {
+	color: black;
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	line-height: 12pt;
+	text-align: right;
+	margin-right: 15px;
+}
+
+P.tablelist {
+	font-family: arial, sans-serif;
+}
+
+P.lastModified {
+	color: gray;
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	line-height: 12pt;
+	text-align: left;		
+}
+
+.floatleft {
+	float: left;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+li.pa {
+    margin-bottom: 10px;
+}
+
+.clearLeftAndTopMargin {
+	clear: left;
+	margin-top: 36px
+}
+
+.fullpage {
+	border-style: solid;
+	border-width: 1px;
+	margin:auto;
+	margin-top: 0px;
+	text-align: left;
+	width: 860px;
+	
+}
+
+TR {
+	vertical-align: top; 
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: Navy;
+	background: inherit;
+}
+
+a:hover {
+	color: #000;
+	background: inherit;
+	text-decoration: underline;
+}
+
+TABLE {
+	margin-left: 20px
+}
+
+TH {
+	font-size: 11pt;
+	line-height: 14pt;
+	text-align: left;	
+}
+
+TD {
+	font-size: 10pt;
+	line-height: 14pt;
+	text-align: left;	
+}
+
+UL {	
+	font-family: serif;
+	font-size: 11pt;
+	text-align: left;
+	margin-right: 15px;	
+}
+
+body {
+	margin-top: 0px;
+	padding:0px;
+	text-align: center;
+	background-color: #f0f0f0;
+}
+
+td {
+	font-family: times, serif;
+	font-size: 11pt;
+}
+
+project {
+	font-size:16px;
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+
+}
+
+projectInner{
+	text-align:left;
+	line-height: normal;
+}
+
+/*Left and right sidebar */
+#leftside {clear:left; float:left; margin:0 0 5px; padding:0; width:140px;}
+#rightside {float:right; line-height:1.4em; margin:0 0 5px; padding:0; width:140px;}
+#leftside p,#leftside ul, #rightside p,#rightside ul {margin:0 0 16px; padding:0;}
+#leftside p, #rightside p {font-size:1em; line-height:1.4em;}
+#leftside li, #rightside li {line-height:1.2em; list-style:none; margin:0 0 6px; padding:0;}
+#leftside ul ul, #rightside ul ul {margin:6px 0 0 10px; padding:0;}
+#leftside ul ul li, #rightside ul ul li {margin:0 0 4px;}
+#leftside ul ul li a, #rightside ul ul li a {font-weight:400;}
+#leftside h2,#leftside h3, #rightside h2,#rightside h3 {color:#:f4f4f4; font-size:1.2em; margin:0 0 8px; padding:0;}
+
+/* Main menu */
+#leftside ul.avmenu, #rightside ul.avmenu {display:block; list-style:none; margin:0 0 18px 0; padding:0; width:140px;}
+#leftside ul.avmenu li, #rightside ul.avmenu li {display:inline; line-height:2em; padding:0; width:140px;}
+#leftside ul.avmenu li a, #rightside ul.avmenu li a {
+	background-color:#f4f4f4;
+	border-left:4px solid #ccc;
+	color:#000;
+	float:left;
+	font-weight:700;
+	margin-bottom:5px;
+	padding:5px 1px 5px 5px;
+	text-decoration:none;
+	width:130px;
+}
+#leftside ul.avmenu li a:hover,#leftside ul.avmenu li a.current, #rightside ul.avmenu li a:hover,#rightside ul.avmenu li a.current {
+	background-color:#0CC;
+	border-left:4px solid #286ea0;
+	color:#FFF;
+}
+#leftside ul.avmenu ul, #rightside ul.avmenu ul {font-size:0.9em; margin:0 0 0 15px; padding:0 0 5px; width:125px;}
+#leftside ul.avmenu ul a, #rightside ul.avmenu ul a {font-weight:400; padding:3px 1px 3px 5px; width:115px;}
+#leftside ul.avmenu ul ul, #rightside ul.avmenu ul ul {width:113px;}
+#leftside ul.avmenu ul ul a, #rightside ul.avmenu ul ul a {width:100px;}
+
+/*
+#leftside ul.links ul {
+ 	margin:10 10 18 10;
+	padding:40px;	
+	}
+*/
+
+
+#leftside ul.links li{
+	margin-left:10px;
+	padding:0.5px;	
+	}
+#Home p a {
+	color: #06F;
+	font-weight: bold;
+}
+#Home p strong a em {
+	color: #00F;
+}
+.public {
+	color: #00F;
+}
+#Home p .public em {
+	font-weight: bold;
+}
+.s {
+	color: #000;
+}
+#Home .name {
+	text-align: center;
+}
